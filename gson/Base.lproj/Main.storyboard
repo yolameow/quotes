@@ -13,10 +13,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gson" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="gson" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,6 +65,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YPd-45-Ov9" secondAttribute="trailing" constant="30" id="ZB7-Dp-o7o"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ovb-cs-5tG">
+                        <barButtonItem key="rightBarButtonItem" title="Filter" id="Ukf-GG-Qut">
+                            <inset key="largeContentSizeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="authorLabel" destination="f3L-St-6uG" id="4gH-z5-3N6"/>
                         <outlet property="quoteLabel" destination="TDP-VZ-w49" id="GEw-Rz-VCf"/>
@@ -72,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1.875" y="67.605633802816897"/>
+            <point key="canvasLocation" x="999.375" y="67.605633802816897"/>
         </scene>
     </scenes>
     <resources>
